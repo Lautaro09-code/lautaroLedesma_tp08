@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/Css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Lautaro Ledesma</a>
+        <input type="checkbox" name="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon-action">
+            <div class='bx bx-menu' id="menu-icon"></div>
+        </label>
+        <ul class="navlist">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre mí</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Lautaro Ledesma</h1>
+                <h4>"Diseñando el mañana con cada clic"</h4>
+                <p>Soy un estudiante de programación con una gran pasión por el desarrollo web. Me encanta crear sitios
+                    atractivos y funcionales utilizando HTML y CSS, cuidando cada detalle para que la experiencia del
+                    usuario sea intuitiva. Además, tengo buen manejo de Excel, lo que me permite organizar datos de
+                    manera
+                    eficiente y automatizar tareas simples. Siempre estoy en busca de nuevos desafíos para seguir
+                    aprendiendo y perfeccionando mis habilidades. <br> Mi objetivo es crecer profesionalmente en este
+                    emocionante
+                    mundo de la tecnología.
+                </p>
+                <a href="#">CV</a>
+                <a href="#" class="videos"><i class="ri-play-fill"></i>Mis Proyectos</a>
+            </div>
+            <div class="hero-img">
+                <img src="/Images/Lautaro.png.jpeg" alt="mi foto">
+            </div>
+        </section>
+        <div class="icons">
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-youtube-line"></i></a>
+            <a href="#"><i class="ri-github-fill"></i></a>
+        </div>
+        <section id="proyectos">
+            <h2>Mis Proyectos</h2>
+            <div class="proyectos-container">
+                <div class="proyecto">
+                    <img src="https://via.placeholder.com/300" alt="Proyecto 1">
+                    <div class="historia">
+                        <p>Descripción de Proyecto 1</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="https://via.placeholder.com/300" alt="Proyecto 2">
+                    <div class="historia">
+                        <p>Descripción de Proyecto 2</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="https://via.placeholder.com/300" alt="Proyecto 3">
+                    <div class="historia">
+                        <p>Descripción de Proyecto 3</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="3" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
